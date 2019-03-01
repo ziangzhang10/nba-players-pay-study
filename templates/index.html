@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NBA Player Salary Study</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="include/style.css">
+</head>
+
+<body>
+  <!--Adding Navbar-->
+  <nav class="navbar navbar-default some-margin">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="color: white; background:rgb(11,173,166); font-family: Georgia, 'Times New Roman', Times, serif">NBA Player Salary Study</a>
+      </div>
+  </nav><!--end Navbar-->
+
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1 style="color: rgb(11,173,166); font-family: Arial, Helvetica, sans-serif"><b>What Determines the Salaries of NBA Players?</b></h1>
+      <hr><!--insert a horizontal line-->
+      <h2 style="color: rgb(11,173,166); font-family: Arial, Helvetica, sans-serif"><b>Yang Yang and ZiAng Zhang</b></h2>
+    </div>
+
+    <!-- First Row -->
+    <div class="row" id="first-row">
+      <div class="col-md-8">
+        <div class="jumbotron" style ="font-family: Georgia, 'Times New Roman', Times, serif">
+            <h2>Background of Study</h2>
+
+            <hr><!--insert a horizontal line-->
+            <p>
+              The purpose of our project is to identify factors that may determine the income of
+              NBA players, such as age, height, position in the court, field goal percentage, etc,
+              and analyze their correlations. Stronger correlation may indicate a possible causation.
+              Please see the figures on this page with our analysis. 
+              You're also welcome to draw your own conclusions
+            </p>
+        </div>
+      </div><!-- end col -->
+      <div class="col-md-4">
+
+            <img src="static/Plots/salary_vs_position.jpg", alt="Salary vs. Position in the field", style = "width: 400px">
+
+            <img src="static/Plots/salary_vs_age.jpg", alt="Salary vs. Age", style = "width: 400px">
+
+        </div><!-- end col -->
+    </div><!-- end row -->
+
+
+    <!-- Second Row -->
+    <div class="row" id="second-row">
+      <div class="col-md-4">
+    
+        <img src="static/Plots/salary_vs_efg.jpg" , alt="Salary vs. Effective Field Goal" , style="width: 400px">
+    
+    
+      </div><!-- end col -->
+      <div class="col-md-4">
+    
+        <img src="static/Plots/salary_vs_fg.jpg" , alt="Salary vs. Field Goal" , style="width: 400px">
+    
+    
+      </div><!-- end col -->
+      <div class="col-md-4">
+    
+        <img src="static/Plots/salary_vs_ft.jpg" , alt="Salary vs. Free Throws" , style="width: 400px">
+    
+    
+      </div><!-- end col -->
+    </div><!-- end row-->
+
+  </div><!-- end container -->
+</body>
+
+</html>
+

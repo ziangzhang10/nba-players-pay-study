@@ -1,0 +1,141 @@
+
+body{
+    background-color: lightgray;
+}
+
+/* For the nice looking "Latitude" box on the left */
+.bootstrap-is-useless{
+    background: teal;
+    /* height: 50px; */
+    /* width: 100px; */
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*color: white;*/
+    text-align: left;
+    padding-left: 30px !important;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+a.white{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right{
+    float: right;
+}
+
+
+.button{
+    width: 110%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button:hover{
+    background-color: teal;
+    color: white;
+}
+
+.button:hover a{
+    background-color: teal;
+    color: white;
+}
+
+/* for the other two buttons on the right */
+.bootstrap-is-useless-seriously{
+    background: #F8F8F8;
+    color: darkgrey;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+/* for the dropdown menu "Plot" */
+.dropbtn {
+    color: darkgrey;
+    background: #F8F8F8;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    vertical-align: middle;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F8F8F8;
+    /*min-width: 200px;*/
+    z-index: 1;
+    left: auto;
+    right: 0;   /* so that the drop down menu will align to the right of its parent */
+}
+ 
+.dropdown-content a {
+    color: darkgrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {background-color: teal; color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: teal; color: white;}
+/* End Plot part */
+
+/* margin between the navbar and the text */
+.some-margin{
+    margin-bottom: 40px;
+}
+
+/* format for the text box */
+.box{
+    background-color: #F8F8F8;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+/* header */
+h1{
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+/*paragraph*/
+p{
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+li{
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+small-image{
+    margin: 10px;
+}
+
+/* highlight the image that is currently being visualized */
+img.framed{
+    border: solid 2px;
+    border-color: teal;
+}
